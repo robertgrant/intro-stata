@@ -1,0 +1,6 @@
+In this analysis, we are going to discover the mean miles per gallon of cars in 1978!
+<<dd_do>>
+sysuse auto.dta, clear
+quietly summarize mpg
+dis r(mean)
+<</dd_do>>
